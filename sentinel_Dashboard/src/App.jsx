@@ -1,7 +1,6 @@
 import { useTickets } from './hooks/useTicket'
 import TicketForm from './components/TicketForm'
 import DashboardLayout from './components/DashboardLayout'
-import TicketCard from './components/TicketCard'
 import TicketList from './components/TicketList'
 
 function App() {

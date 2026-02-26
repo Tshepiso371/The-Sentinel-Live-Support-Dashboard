@@ -7,7 +7,7 @@ const apiClient = axios.create({
   timeout: 5000
 })
 
-// Response interceptor (Clean Interceptor)
+
 apiClient.interceptors.response.use(
   response => response.data,
   error => {
